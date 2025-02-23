@@ -1,0 +1,12 @@
+{
+	// Curve Mode calculation is XPToNextLevel = (baseXPForOneLevel + (experienceLevel * curveModeMultiplier)). 
+	"curveMode": true,
+	// The amount of experience to go from level 0 to level 1. If CurveMode is False, this amount is for every level.
+	"baseXPForOneLevel": 10,
+	// The multiplier used in the Curve Mode calculation.
+	"curveModeMultiplier": 2,
+	// The level at which the amount of XP required for the next level stops increasing. Set to 0 to disable.
+	"levelCap": 0,
+	// If levelCap > 0, the amount of experience required for the next level.
+	"cappedXpForNextLevel": 107
+}
